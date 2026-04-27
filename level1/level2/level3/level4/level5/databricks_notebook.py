@@ -19,7 +19,7 @@ from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, count
 
 # Add the root directory to the path
-sys.path.append('/Workspace/Repos/your-repo')
+# sys.path.append('/Workspace/Repos/your-repo')
 
 # Import root utils module
 from utils import format_string, calculate_sum, validate_config
