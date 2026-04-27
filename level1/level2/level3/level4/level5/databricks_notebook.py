@@ -22,7 +22,7 @@ from pyspark.sql.functions import col, count
 # sys.path.append('/Workspace/Repos/your-repo')
 
 # Import root utils module
-from utils import format_string, calculate_sum, validate_config
+from level1.utils import format_string, calculate_sum, validate_config
 
 # Import the deeply nested helpers class
 from level1.level2.level3.level4.level5.helpers import Helpers
