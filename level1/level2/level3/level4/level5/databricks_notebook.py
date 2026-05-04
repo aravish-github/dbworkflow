@@ -68,10 +68,10 @@ from pyspark.sql.functions import col, count
 
 # sys.path.insert(0, "/Workspace/Repos")
 # GCP
-from .helpers import Helpers
+from helpers import Helpers
 
 # GCP
-from .....utils import format_string, calculate_sum, validate_config
+from utils import format_string, calculate_sum, validate_config
 
 # Import the deeply nested helpers class
 
