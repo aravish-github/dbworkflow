@@ -16,7 +16,10 @@
 
 import os, sys    
 print(os.getcwd())  # likely the repo root
-print(sys.path)  
+
+for path in syspath:
+    print(path)
+
 commit_id = os.getcwd().split("/")[5]
 print(commit_id)
 
