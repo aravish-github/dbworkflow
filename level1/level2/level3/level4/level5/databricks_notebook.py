@@ -36,8 +36,8 @@ from pyspark.sql.functions import col, count
 from level1.utils import format_string, calculate_sum, validate_config
 
 # Import the deeply nested helpers class
-# from level1.level2.level3.level4.level5.helpers import Helpers
-from .helpers import Helpers
+from level1.level2.level3.level4.level5.helpers import Helpers
+# from .helpers import Helpers
 
 # COMMAND ----------
 
