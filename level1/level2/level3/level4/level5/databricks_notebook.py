@@ -42,6 +42,14 @@ from pyspark.sql.functions import col, count
 # AWS
 # from level1.utils import format_string, calculate_sum, validate_config
 
+
+from os.path import dirname, abspath, join
+import sys
+
+# Find code directory relative to our directory
+THIS_DIR = dirname(__file__)
+print(THIS_DIR)
+
 # GCP
 from utils import format_string, calculate_sum, validate_config
 
