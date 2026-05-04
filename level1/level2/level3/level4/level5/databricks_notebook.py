@@ -51,6 +51,9 @@ from pyspark.sql.functions import col, count
 # print(THIS_DIR)
 
 # GCP
+from helpers import Helpers
+
+# GCP
 from utils import format_string, calculate_sum, validate_config
 
 # Import the deeply nested helpers class
@@ -58,8 +61,6 @@ from utils import format_string, calculate_sum, validate_config
 # AWS
 # from level1.level2.level3.level4.level5.helpers import Helpers
 
-# GCP
-from helpers import Helpers
 
 # COMMAND ----------
 
