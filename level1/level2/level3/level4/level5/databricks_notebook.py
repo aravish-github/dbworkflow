@@ -50,6 +50,7 @@ from pyspark.sql.functions import col, count
 # THIS_DIR = dirname(__file__)
 # print(THIS_DIR)
 
+sys.path.append(0, "/Workspace/Repos")
 # GCP
 from helpers import Helpers
 
