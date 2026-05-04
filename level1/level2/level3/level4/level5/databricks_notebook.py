@@ -14,19 +14,19 @@
 
 # COMMAND ----------
 
-import os
+# import os
 
-base_dir = "/Workspace/Repos/.internal"
+# base_dir = "/Workspace/Repos/.internal"
 
-subdirs = [
-    name
-    for name in os.listdir(base_dir)
-    if os.path.isdir(os.path.join(base_dir, name))
-]
+# subdirs = [
+#     name
+#     for name in os.listdir(base_dir)
+#     if os.path.isdir(os.path.join(base_dir, name))
+# ]
 
-# First two subdirectories (or fewer if less exist)
-first_two = subdirs[:2]
-print(first_two)
+# # First two subdirectories (or fewer if less exist)
+# first_two = subdirs[:2]
+# print(first_two)
 
 # COMMAND ----------
 
@@ -66,7 +66,7 @@ from pyspark.sql.functions import col, count
 # THIS_DIR = dirname(__file__)
 # print(THIS_DIR)
 
-# sys.path.append(0, "/Workspace/Repos")
+sys.path.insert(0, "/Workspace/Repos")
 # GCP
 from helpers import Helpers
 
