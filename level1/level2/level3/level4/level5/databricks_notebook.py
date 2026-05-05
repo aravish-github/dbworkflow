@@ -82,6 +82,14 @@ from utils import format_string, calculate_sum, validate_config
 
 # COMMAND ----------
 
+import os, sys    
+print(os.getcwd())  # likely the repo root
+
+for path in sys.path:
+    print(path)
+
+# COMMAND ----------
+
 # MAGIC %md
 # MAGIC ## Initialize Helpers
 
