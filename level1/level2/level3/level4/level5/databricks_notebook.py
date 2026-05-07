@@ -14,6 +14,10 @@
 
 # COMMAND ----------
 
+import os
+import sys
+import pkgutil
+
 # import os
 
 # base_dir = "/Workspace/Repos/.internal"
@@ -54,6 +58,9 @@ from pyspark.sql.functions import col, count
 # sys.path.append('/Workspace/Repos/your-repo')
 
 # Import root utils module
+
+import importlib
+importlib.invalidate_caches()
 
 # AWS
 from level1.utils import format_string, calculate_sum, validate_config
