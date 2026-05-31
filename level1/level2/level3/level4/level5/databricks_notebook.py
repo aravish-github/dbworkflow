@@ -9,8 +9,15 @@
 
 # COMMAND ----------
 
-# MAGIC %md
-# MAGIC ## Setup and Imports
+import os
+# Returns a list of strings
+entries = os.listdir("level1/level2/level3/level4/level5")
+print(entries)
+
+# COMMAND ----------
+
+from pathlib import Path
+files = [f for f in Path("level1/level2/level3/level4/level5").iterdir() if f.is_file()]
 
 # COMMAND ----------
 
