@@ -54,9 +54,9 @@ print("/Workspace/Repos/.internal/"+commit_hash+"/"+commit_id+"/level1/level2/le
 
 from pathlib import Path
 
-folder_path = Path("/Workspace/Repos/.internal/"+commit_hash+"/"+commit_id+"/level1/level2/level3/level4/level5/helpers.py")
-for item in folder_path.iterdir():
-    print(item.name)
+# folder_path = Path("/Workspace/Repos/.internal/"+commit_hash+"/"+commit_id+"/level1/level2/level3/level4/level5/helpers.py")
+# for item in folder_path.iterdir():
+#     print(item.name)
 
 # COMMAND ----------
 
