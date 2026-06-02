@@ -92,7 +92,7 @@ importlib.invalidate_caches()
 from helpers import Helpers
 
 # GCP
-from utils import format_string, calculate_sum, validate_config
+from level1.utils import format_string, calculate_sum, validate_config
 
 # Import the deeply nested helpers class
 
