@@ -50,7 +50,7 @@ print(commit_id)
 
 from pathlib import Path
 
-folder_path = Path(commit_id)
+folder_path = Path(commit_id+"/helpers.py")
 for item in folder_path.iterdir():
     print(item.name)
 
