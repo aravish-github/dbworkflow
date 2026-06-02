@@ -44,13 +44,17 @@ for path in sys.path:
 
 commit_id = os.getcwd().split("/")[5]
 print(commit_id)
+commit_hash = os.getcwd().split("/")[4]
+print(commit_hash)
+
+print("/Workspace/Repos/.internal/"+commit_hash+"/"+commit_id+"/level1/level2/level3/level4/level5/helpers.py")
 
 # if current_dir not in sys.path:
     # sys.path.insert(0, current_dir)
 
 from pathlib import Path
 
-folder_path = Path(commit_id+"/level1/level2/level3/level4/level5/helpers.py")
+folder_path = Path("/Workspace/Repos/.internal/"+commit_hash+"/"+commit_id+"/level1/level2/level3/level4/level5/helpers.py")
 for item in folder_path.iterdir():
     print(item.name)
 
