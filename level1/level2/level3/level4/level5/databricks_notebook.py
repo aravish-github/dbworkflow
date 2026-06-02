@@ -9,10 +9,10 @@
 
 # COMMAND ----------
 
-import os
+# import os
 # Returns a list of strings
-entries = os.listdir("level1/level2/level3/level4/level5")
-print(entries)
+# entries = os.listdir("level1/level2/level3/level4/level5")
+# print(entries)
 
 # COMMAND ----------
 
